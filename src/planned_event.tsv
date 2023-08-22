@@ -1,15 +1,15 @@
 study_id	planned_event_id	event_type	event_subtype	is_T0	min_start	max_start	end	time_unit	start_rule	end_rule	name	we can have more columns here to describe the planned event
-SDY787	PE0000	birth		FALSE	-18	-60		years				
-SDY787	PE1111	primary immunization	whole-cell pertussis vaccination	FALSE	-19	-59		years				
-SDY787	PE2222	primary immunization	acellular pertussis vaccination	FALSE	-17	-19		years				
-SDY787	PE3333	confirmed absence of immunization	pertussis vaccination	FALSE	-4	-10	0	years		booster administration at T0		
-SDY787	PV4787.1	study enrollment		TRUE	1	1		days			study start for wP vaccinated individuals	
-SDY787	PV4787.2	specimen collection	blood draw	FALSE	1	1		days				
-SDY787	PV4787.3	booster immunization	acellular pertussis vaccination	FALSE	1	1		days				
-SDY787	PV4788	specimen collection	blood draw	FALSE	30	90		days	1 month post aP boost	3 months post aP boost	wP vaccinated and aP boosted individuals sampled at early time point post boost	
-SDY787	PV4789	specimen collection	blood draw	FALSE	150	1320		days	5 months post aP boost	44 months post aP boost	wP vaccinated and aP boosted individuals sampled at late time point post boost	
-SDY787	PV4790.1	study enrollment		TRUE	1	1		days			study start for aP vaccinated individuals	
-SDY787	PV4790.2	specimen collection	blood draw	FALSE	1	1		days				
-SDY787	PV4790.3	booster immunization	acellular pertussis vaccination	FALSE	1	1		days				
-SDY787	PV4791	specimen collection	blood draw	FALSE	15	90		days	0.5 month post aP boost	3 months post aP boost	aP vaccinated and aP boosted individuals sampled at early time point post boost	
-SDY787	PV4792	specimen collection	blood draw	FALSE	120	240		days	4 months post aP boost	8 months post aP boost	aP vaccinated and aP boosted individuals sampled at late time point post boost	
+SDY787	PE0000	birth		false	-18	-60		years				
+SDY787	PE1111	primary immunization	whole-cell pertussis vaccination	false	-19	-59		years				
+SDY787	PE2222	primary immunization	acellular pertussis vaccination	false	-17	-19		years				
+SDY787	PE3333	confirmed absence of immunization	pertussis vaccination	false	-4	-10	0	years		booster administration at T0		
+SDY787	PV4787.1	study enrollment		true	1	1		days			study start for wP vaccinated individuals	
+SDY787	PV4787.2	specimen collection	blood draw	false	1	1		days				
+SDY787	PV4787.3	booster immunization	acellular pertussis vaccination	false	1	1		days				
+SDY787	PV4788	specimen collection	blood draw	false	30	90		days	1 month post aP boost	3 months post aP boost	wP vaccinated and aP boosted individuals sampled at early time point post boost	
+SDY787	PV4789	specimen collection	blood draw	false	150	1320		days	5 months post aP boost	44 months post aP boost	wP vaccinated and aP boosted individuals sampled at late time point post boost	
+SDY787	PV4790.1	study enrollment		true	1	1		days			study start for aP vaccinated individuals	
+SDY787	PV4790.2	specimen collection	blood draw	false	1	1		days				
+SDY787	PV4790.3	booster immunization	acellular pertussis vaccination	false	1	1		days				
+SDY787	PV4791	specimen collection	blood draw	false	15	90		days	0.5 month post aP boost	3 months post aP boost	aP vaccinated and aP boosted individuals sampled at early time point post boost	
+SDY787	PV4792	specimen collection	blood draw	false	120	240		days	4 months post aP boost	8 months post aP boost	aP vaccinated and aP boosted individuals sampled at late time point post boost	

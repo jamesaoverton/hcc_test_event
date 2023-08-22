@@ -14,5 +14,5 @@ semicolon_labels	line	match(/(\S|\S.*\S)/)	a semicolon-separated list of labels
 boolean	word	in('TRUE', 'FALSE')	TRUE or FALSE			
 integer	word	match(/-?\d+/)	an integer	INTEGER	INTEGER	
 study_id	word	match(/SDY\d{1,4}/)	a study ID			
-planned_event_id	label	match(/PE\d+(\.\d+)?/)	a planned event ID			
+planned_event_id	label	match(/P[EV]\d+(\.\d+)?/)	a planned event ID			
 arm_id	word	match(/ARM\d{1,5}/)	a study arm ID			
