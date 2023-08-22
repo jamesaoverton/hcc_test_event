@@ -1,11 +1,11 @@
 # hcc_test_event
 
 This repo demonstrates using
-[VALVE]()
+[VALVE](https://github.com/ontodev/valve.rs)
 and
-[Nanobot]()
+[Nanobot](https://github.com/ontodev/nanobot.rs)
 to validate a
-[Google Sheet]()
+[Google Sheet](https://docs.google.com/spreadsheets/d/11zNY4MEoEUZsmA-UYMuzclQIog_7X8264vz8Do056pE/)
 used for describing immunology study designs.
 
 Run `make clean all`.
