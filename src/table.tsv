@@ -1,0 +1,7 @@
+table	path	type	description
+table	src/table.tsv	table	all the tables in this dataset
+column	src/column.tsv	column	all the column in the tables of this dataset
+datatype	src/datatype.tsv	datatype	the datatypes for the columns of this dataset
+planned_event	src/planned_event.tsv		the planned events for the studies in this dataset
+arm	src/arm.tsv		the arms for the studies in this dataset
+arm_2_planned_event	src/arm_2_planned_event.tsv		the relation between the arms and the planned events in this dataset

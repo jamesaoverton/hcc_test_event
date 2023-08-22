@@ -1,0 +1,17 @@
+[nanobot]
+config_version = 1
+
+[logging]
+level = "DEBUG"
+
+[database]
+connection = "build/nanobot.db"
+
+[valve]
+path = "src/table.tsv"
+
+[actions.reload]
+label = "Reload fromm Google Sheet"
+commands = [
+  ["make", "clean", "build/nanobot.db"]
+]

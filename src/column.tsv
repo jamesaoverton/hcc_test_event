@@ -1,0 +1,35 @@
+table	column	label	nulltype	datatype	structure	description	note
+table	table			label	unique	name of this table	
+table	path			line		path to the TSV file for this table, relative to the table.tsv file	
+table	type		empty	table_type		type of this table, used for tables with special meanings	
+table	description		empty	text		a description of this table	
+column	table			label	from(table.table)	the table that this column belongs to	
+column	column			label		the name of this column	
+column	nulltype		empty	word	from(datatype.datatype)	the datatype for NULL values in this column	
+column	datatype			word	from(datatype.datatype)	the datatype for this column	
+column	structure		empty	label		schema information for this column	
+column	description		empty	text		a description of this column	
+datatype	datatype			word	primary	the name of this datatype	
+datatype	parent		empty	word	tree(datatype)	the parent datatype	
+datatype	condition		empty	line		the method for testing the datatype	
+datatype	description		empty	text		a description of this datatype	
+datatype	SQL type		empty	sql_type		the SQL type for representing this data	
+datatype	HTML type		empty	html_type		the HTML type for viewing and editing this data	
+planned_event	study_id			study_id			
+planned_event	planned_event_id			planned_event_id	primary		
+planned_event	event_type			label			TODO: controlled terminology
+planned_event	event_subtype		empty	label			TODO: controlled terminology
+planned_event	is_T0			boolean			
+planned_event	min_start			integer			
+planned_event	max_start			integer			
+planned_event	end		empty	integer			
+planned_event	time_unit			label			TODO: controlled terminology
+planned_event	start_rule		empty	label			
+planned_event	end_rule		empty	label			
+arm	arm_id			arm_id	primary		
+arm	arm_description			line			
+arm	arm_name			line			
+arm_2_planned_event	id			word	primary		
+arm_2_planned_event	arm_id			arm_id	from(arm.arm_id)		
+arm_2_planned_event	planned_event_id			planned_event_id	from(planned_event.planned_event_id)		
+arm_2_planned_event	order			integer			

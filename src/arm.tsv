@@ -1,0 +1,5 @@
+arm_id	arm_description	arm_name
+ARM3142	whole cell pertussis vaccinated individuals sampled >48 months after vaccination	wP vaccinated individuals
+ARM3143	whole cell pertussis vaccinated and acellular boosted individuals sampled at 1-3 months and/or at 5-44 months post boost	wP vaccinated and aP boosted individuals sampled at 1-3 months and/or at 5-44 months
+ARM3144	acellular pertussis vaccinated individuals sampled >48 months after vaccination	aP vaccinated individuals
+ARM3145	whole cell pertussis vaccinated and acellular boosted individuals sampled at 0.5-3 months and/or at 4-8 months post boost	aP vaccinated and aP boosted individuals sampled at 0.5-3 months and/or at 4-8 months
